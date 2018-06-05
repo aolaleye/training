@@ -102,6 +102,8 @@ __set path in Java__
 2. permanant 
 
 __public__ means anyone will be able to access it
+__private__ means no other class will be able to access it
+if public, private, or protected is not specified, then it is __default__
 
 instance variable
 - 
@@ -126,6 +128,53 @@ int1 = sc.nextInt();
 System.out.println("Enter the value of string string1:");
 int1 = sc.nextInt();
 sc.close();
+
+__Types of Variables in Java__
+1. Primitive Variable
+    - used to represent primitive values - int, string, float
+2. Reference Variable
+    - used to refer objects
+
+- Instance Variable
+    - same as scope of Object variable
+    - should declare within the class directly, but outside any block method or constructor
+
+- Static Variable
+    - uses static keyword
+
+- Local Variable 
+    - Scope: block, method, constructor
+
+__Constructor in Java__
+- special type of method that is used to initialize the object
+- constructor name must be the same as its class name and must not have an explicit return type
+
+__Types of Contructors__
+1. Default Contructor
+2. Parameterized Constructor
+
+__Constructor Overloading__
+- calling a paramaterized construtor, then calling a default constructor
+
+__Inheritance__
+- the mechanism of deriving  a new class from the old one
+- Old class is known as __Superclass__
+- New class is known as __Subclass__
+- Subclass inherits all instance variables and methods defined by superclass and it also adds its own unique elements
+
+__Types of Inheritance__
+- Single
+    - child and parent class relationship where a class extends the other class
+- Multi-level
+    - child and parent relationship where more than one class exends the same class
+- Hierarchical
+    - Base Class --> Child1 Class | Child2 Class | Child3 Class
+
+Super Class --> Base Class --> Child Class
+
+__Static Variable__
+- common to all instances because it is a class level variable
+- only a single coply o a static variable is created and shared among all instances
 
 __Questions__
 - Why do we have to compile a java program?
