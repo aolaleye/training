@@ -176,6 +176,99 @@ __Static Variable__
 - common to all instances because it is a class level variable
 - only a single coply o a static variable is created and shared among all instances
 
+__Types of Variables__
+1. Primitive
+    - int, string, long, short, double, float
+    - must create an object in order to access this variable
+
+2. Reference
+    - Instance Variable
+        - variable which you will declare after the class
+        - for every instance, the value resets, is different for every object
+        - __the value varies from object to object__
+        - you're able to initialize an instance variable without initialization
+
+    - Static Variable
+        - without creating the object, you will be able to call the method
+        - if you make the instance variable static, then you will be able to call the instance variable without creating an object
+        - __values are not varied, it stays the same for all objects__
+        - static is also called "class level variable"
+        - can be used to refer the common property of all objects
+        - gets memory only once in a class area at the time of class loading
+        - initilization is optional
+
+    - Local Variable
+        - you can declare a local variable in a block, constructor or method
+        - must initialize before using it
+
+__Method Overloading__
+- i.e. addNumbers(A,B) or addNumbers(2,3,5,6)
+- using parameters in a method
+- many methods in a class have the same name but different signatrue
+- also called _Polymorphism_
+
+__Method Overriding__
+- overriding the default values in the method with parameters
+- override the functionality of an existing method
+
+__This__
+
+__Super__
+- reference variable that is used to refer immediate parent lass object
+
+__Final__
+- when you want to make something constant
+- final variable
+    - constant value, cannot be changed
+- final method
+    - cannot be overridden
+- final class
+    - cannot be inherited
+
+__Static__
+
+__Wrapper Class__
+- i.e. int i = 100
+- integer obj = Integer.valueOf(i); - called __autoboxing__
+- int i = obj.intValue() - called __unboxing__
+
+__Package__
+- group of similar types of classes, interfaces and sub-packages
+- existing packages:
+    - lang
+        - java.lang is the most important package of the java API 
+        - provides classes that are fundemental to the design of the Java language
+    - util
+    - awts
+
+__Garbage Collection__
+- garbage is unreferenced object
+- the process of reclaiming the unsused runtime memory
+- advantage - make java more efficient, automatically done by the jvm
+- if you nullify an object it becomes a candidate for garbage collection
+- finalize runs before System.gc()
+- you give the finalize() one wish before the garbage collector comes
+- __finalize__
+    - invoke before object is garbage collected
+- __gc()__
+    - invoke the garbage collector
+
+__Object class__
+- the parent class of all the classes in java by default
+- provides some common behaviors so objects can be compared, cloned , notified
+- the obkect class provides many methods
+    - getClass()
+        - returns the Class class object of the object
+    - public Int hasCode()
+        - returns the hashcode number of the object
+    - public boolean equals(Object obk)
+        - compares the given obkect to this object
+    - clone()
+    - String toString()
+    - notify(), notifyAll()
+
+
+
 __Questions__
 - Why do we have to compile a java program?
 - Do I have to recompile it after I change the program?
