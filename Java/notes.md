@@ -267,6 +267,27 @@ __Object class__
     - String toString()
     - notify(), notifyAll()
 
+__Abstraction__
+- the process of separating ideas from their action
+- it is used to separate ideas from their implementation
+- it is used to define only ideas in one class so that the idea can be implemented by its sub classes according to their requirements 
+- we can't create objects to those classes which are declared as abstract
+- we can create objects to sub classes of abstract
+- abstract methods cannot be private, must be implemented somehow in the sub classes
+
+__Concrete__
+- concrete method is the normal method
+
+__Interface__
+- contain only abstract methods (only ideas), NO concrete methods
+- shows 100% abstractness
+- declared with the keyword interface
+- interface can have two types of methods
+    1. Fields (such as variable) - public, static and final by default
+    2. Methods
+- methods are abstract by default, don't need to declare the abstract keyword
+- SIB - Static Initialization Block and IIB - Instance Intialization Block are not allowed in interfaces
+- Java cannot extend more than one class, but a class can implement more than one interface - this is how multiple inheritances are implemented in Java
 
 
 __Questions__
