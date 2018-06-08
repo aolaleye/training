@@ -289,6 +289,45 @@ __Interface__
 - SIB - Static Initialization Block and IIB - Instance Intialization Block are not allowed in interfaces
 - Java cannot extend more than one class, but a class can implement more than one interface - this is how multiple inheritances are implemented in Java
 
+__StringBuffer__
+- peer class of String that provides functionality of strings
+- represents fixed-length immutable character sequences
+
+__Exception__
+- runtime error - when the error occurs when running the program causing the program to terminate
+- __Try-Catch Block__
+    - method that will give the exception
+- a problem that arises during the execution of a program
+- Exception Handling is a task to maintain normal flow of the program, but does not mean repairing the exception - it is defining a alternative way to continue rest of the program normally
+    - i.e. User entered invalid data, file not found
+1. Checked
+    - checked by compiler at runtime
+2. Unchecked    
+    - not checked by compiler at runtime
+- within the try block if an eception occurs, the rest of the rey block won't be executed
+- __Multiple-Catch Block__
+
+- Finally Block
+    - code in finally block always executes, whether or not exception has occured
+    - it allows you to run any cleanp-type statement that you want to execute
+
+
+__Methods__
+- tostring()
+    - name of exception: description
+- getMessage
+    - discription only
+
+__Handling Exception Keywords__
+1. try
+2. catch
+3. finally
+4. throw
+    - used to explicitly throw an exception
+    - throw new AritmeticException("----")
+5. throws
+
+
 
 __Questions__
 - Why do we have to compile a java program?
