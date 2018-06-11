@@ -327,6 +327,50 @@ __Handling Exception Keywords__
     - throw new AritmeticException("----")
 5. throws
 
+__throws__
+- required only for checked exceptions
+- required only ot convince compiler to provide information to the caller of the method about the exception
+
+__Checked vs. Unchecked__
+- checked
+    - are the exceptions that are checked at complie time
+    - if method throws a checked exception, the method must either handle the exception or it must specify the exception using the _throws_ keyword
+
+- unchecked
+    - 
+
+__Data Structure__
+- a way of storing and organizing data
+- used to reduce complexity of the code
+
+1. Static
+- the sze of the structure is fixed
+- the content can be modified but without changing the memory space allocated to it
+- i.e. Array
+
+2. Dynamic
+- size of the structure is not fixed and can be modified
+- can be randomly updated during run time
+
+__hashCode() Method__
+- returns the hashcode value as an integer
+
+__Arrays vs. Collections__
+- Arrays
+    - fixed in size
+    - Wrt memory arrays are not recommended for use
+    - Wrt Performace Arrays are recommended to use
+    - can hold only homogeneous datatype elements
+    - no underlying data structure
+    - can hold both primitive and object types
+- Collections
+    - growable
+    - Wrt memory collections are recommend
+    - Wrt Perfomance collections are not recommended
+    - can hold both homogeneous and heterogeneous elements
+    - based on data structure
+    - can hold only objects but not primitives
+
 
 
 __Questions__
