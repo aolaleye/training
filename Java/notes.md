@@ -371,6 +371,25 @@ __Arrays vs. Collections__
     - based on data structure
     - can hold only objects but not primitives
 
+__Comparable__
+- capable of comparing itself with another object
+- the class must implement the java.lang
+
+__Comparator__
+- external to the element type we are comparing
+- it's a separate class
+
+__Thread__
+- smallest executable unit of a process
+- lightweight operations - whereas a process is a heavyweight application, takes time
+- a process can have multiple threads
+
+__Multitasking__
+- multiple tasks are performed simultaneuosly
+- can be process-based or thread-based
+
+__Multithreading__ _thread-based multitasking_
+- multple threads in a processe are executed simultaneously
 
 
 __Questions__
