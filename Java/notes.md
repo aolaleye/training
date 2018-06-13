@@ -391,6 +391,29 @@ __Multitasking__
 __Multithreading__ _thread-based multitasking_
 - multple threads in a processe are executed simultaneously
 
+__Connect to Oracle Database__
+> sqlplus
+> sys as sysdba
+> click enter for password
+
+> connect
+> system
+> training
+
+> create user <name>
+> identified by <password>
+
+> grant connect, resource to <name>
+> alter user <name> quota unlimited on users;
+
+> connect <name> <password>
+
+__JDBC__
+- Java Database Connectivity API
+- used by the java application to interact with the database - makes application independent of the database it uses
+- driver
+    - software component required by to interact with the database
+
 
 __Questions__
 - Why do we have to compile a java program?
