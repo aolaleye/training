@@ -52,7 +52,7 @@ __Where it is used__
 - games
 
 __Standalone Application__
-- these are traditional software that we need to install on every maching
+- these are traditional software that we need to install on every machine
 - i.e. media player, antivirus
 - AWT and Swing are use to create standalone apps
 
