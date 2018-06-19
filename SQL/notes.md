@@ -29,5 +29,16 @@ __Datatypes__
 - __Date__
     - store temporal information (e.g. dates and times)
 
+__Syntax__
+- the vocabulary and grammatical structure of a programming language
 
+__Keywords__
+- the vocabulary words of a programming language - commands issued to a computer
+
+__Statement/Query__
+- lines of SQL code
+- a _statement_ is like a sentence 
+- a _query_ is like a question
+- most queries are issued to the database one at a time
+- "running a query" or "executing the sql" refers to issuing a statement
 
