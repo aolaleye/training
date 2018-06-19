@@ -392,21 +392,21 @@ __Multithreading__ _thread-based multitasking_
 - multple threads in a processe are executed simultaneously
 
 __Connect to Oracle Database__
-> sqlplus
-> sys as sysdba
-> click enter for password
+- > sqlplus
+- > sys as sysdba
+- > click enter for password
 
-> connect
-> system
-> training
+- > connect
+- > system
+- > training
 
-> create user <name>
-> identified by <password>
+- > create user <name>
+- > identified by <password>
 
-> grant connect, resource to <name>
-> alter user <name> quota unlimited on users;
+- > grant connect, resource to <name>
+- > alter user <name> quota unlimited on users;
 
-> connect <name> <password>
+- > connect <name> <password>
 
 __JDBC__
 - Java Database Connectivity API
