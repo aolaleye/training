@@ -183,7 +183,7 @@ FROM console_dates
 ORDER BY years_existed;
 
 -------------------------------------------------
--- AGE()
+-- AGE() [PostgreSQL]
 -------------------------------------------------
 ---> AGE(<column name>, <column name>)
 
@@ -191,6 +191,16 @@ ORDER BY years_existed;
 SELECT *, AGE(discontinued, first_retail_availability) AS platform_alive
 FROM console_dates
 ORDER BY platform_alive;
+
+-------------------------------------------------
+-- DATEDIFF() [MS SQL]
+-------------------------------------------------
+---> DATEDIFF(<date type>, <column name>, <column name>)
+
+-- returns the amount of time between the two column dates in the specified date type
+SELECT *, DATEDIFF(YEAR, first_retail_availability, discontinued) AS platform_alive
+FROM [dbo].[console_dates]
+ORDER BY platform_alive ASC;
 
 -------------------------------------------------
 -- CAST()
