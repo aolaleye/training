@@ -61,8 +61,8 @@ SELECT title FROM books WHERE id = 15;
 
 -- both conditions must be true
 SELECT company, product_name, issue
-FROM customer_complaints
-WHERE state_name = 'CA' AND timely_response = 'YES'
+FROM consumer_complaints
+WHERE state_name = 'CA' AND timely_response = 'YES';
 
 -------------------------------------------------
 -- OR
@@ -71,20 +71,46 @@ WHERE state_name = 'CA' AND timely_response = 'YES'
 
 -- either condition must be true
 SELECT company, product_name, issue
-FROM customer_complaints
-WHERE state_name = 'CA' AND timely_response = 'YES'
+FROM consumer_complaints
+WHERE state_name = 'CA' AND timely_response = 'YES';
 
 -------------------------------------------------
 -- WILDCARDS
 -------------------------------------------------
 ---> i.e. SELECT <column name(s) FROM <table name> WHERE <column> LIKE <value>;
----> used to specify the words or phrases you're looking to find
+---> used to specify words or phrases you're looking to find
 
 -- looking for product names that contain the word 'Credit'
-SELECT company, product_name, issue
-FROM customer_complaints
-WHERE product_name LIKE '%Credit%'
+SELECT product_name
+FROM consumer_complaints
+WHERE product_name LIKE '%Credit%';
 
 -- // NOTE: MS SQL is case insensitive by default
 -- // NOTE: PostgreSQL is case sensitive so it will look for 'Credit' exactly - lowercase or uppercase versions of the word will be excluded
 
+-- to change product_name values to lowercase in PostgreSQL, must also put condition in lowercase
+SELECT product_name
+FROM consumer_complaints
+WHERE LOWER(product_name) LIKE '%credit%';
+
+-- to change product_name values to uppercase in PostgreSQL, must also put condition in uppercase
+SELECT product_name
+FROM consumer_complaints
+WHERE UPPER(product_name) LIKE '%CREDIT%';
+
+-- to search for zip code that starts with 4, add 4 trailing underscores
+SELECT company, product_name, zip_code
+FROM consumer_complaints
+WHERE zip_code LIKE '4____';
+
+-- to search for zip code that contains 4 or ends with 4
+WHERE zip_code LIKE '__4__'
+WHERE zip_code LIKE '____4'
+
+-- to search for zip code that does NOT start with 4
+SELECT company, product_name, zip_code
+FROM consumer_complaints
+WHERE zip_code NOT LIKE '4%';
+
+-- to search for zip code that does NOT contain 4 at all
+WHERE zip_code NOT LIKE '%4%';
