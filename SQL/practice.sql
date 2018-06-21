@@ -161,3 +161,10 @@ FROM console_games;
 -- reverses the order of the characters, retaining case sensitivity
 SELECT reverse(genre)
 FROM console_games;
+
+-------------------------------------------------
+-- Temporary Column
+-------------------------------------------------
+-- creates days_existed as a temporary column which contains the results of first_retail_availability - discontinued 
+SELECT *, first_retail_availability - discontinued AS days_existed
+FROM console_dates;
