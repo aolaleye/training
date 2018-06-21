@@ -99,7 +99,6 @@ ORDER BY platform_alive ASC;
 SELECT CAST(game_year as varchar(4))
 FROM console_games;
 
-
 -------------------------------------------------
 -- 7. Provide recommendations on how to deal with missing data in the file
 -------------------------------------------------
