@@ -35,7 +35,7 @@ SELECT name Name, description Description, price "Current Price" FROM products;
 -------------------------------------------------
 -- WHERE
 -------------------------------------------------
----> SELECT <column name(s) FROM <table name> WHERE <condition>;
+---> SELECT <column name(s)> FROM <table name> WHERE <condition>;
 ---> i.e. SELECT <column name(s) FROM <table name> WHERE <column> <operator> <value>;
 
 -- What are the titles and authors of the books in the library published in 1997?
@@ -53,3 +53,38 @@ SELECT book_id FROM loans WHERE loaned_on = "2015-12-10";
 
 -- Which book is book 15?
 SELECT title FROM books WHERE id = 15;
+
+-------------------------------------------------
+-- AND
+-------------------------------------------------
+---> i.e. SELECT <column name(s) FROM <table name> WHERE <column> <operator> <value> AND <column> <operator> <value>;
+
+-- both conditions must be true
+SELECT company, product_name, issue
+FROM customer_complaints
+WHERE state_name = 'CA' AND timely_response = 'YES'
+
+-------------------------------------------------
+-- OR
+-------------------------------------------------
+---> i.e. SELECT <column name(s) FROM <table name> WHERE <column> <operator> <value> OR <column> <operator> <value>;
+
+-- either condition must be true
+SELECT company, product_name, issue
+FROM customer_complaints
+WHERE state_name = 'CA' AND timely_response = 'YES'
+
+-------------------------------------------------
+-- WILDCARDS
+-------------------------------------------------
+---> i.e. SELECT <column name(s) FROM <table name> WHERE <column> LIKE <value>;
+---> used to specify the words or phrases you're looking to find
+
+-- looking for product names that contain the word 'Credit'
+SELECT company, product_name, issue
+FROM customer_complaints
+WHERE product_name LIKE '%Credit%'
+
+-- // NOTE: MS SQL is case insensitive by default
+-- // NOTE: PostgreSQL is case sensitive so it will look for 'Credit' exactly - lowercase or uppercase versions of the word will be excluded
+
