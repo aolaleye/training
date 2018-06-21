@@ -125,3 +125,39 @@ WHERE zip_code NOT LIKE '%4%';
 SELECT COUNT (complaint_id)
 FROM consumer_complaints
 WHERE date_recieved = date_sent;
+
+-------------------------------------------------
+-- LENGTH
+-------------------------------------------------
+---> length(<column name>)
+
+-- returns the number of characters that each game name consists of
+SELECT game_name, length(game_name)
+FROM console_games;
+
+-------------------------------------------------
+-- LEFT
+-------------------------------------------------
+---> left(<column name>, <number>)
+
+-- returns the FIRST 4 letters of the publisher
+SELECT left(publisher, 4)
+FROM console_games;
+
+-------------------------------------------------
+-- RIGHT
+-------------------------------------------------
+---> right(<column name>, <number>)
+
+-- returns the LAST 4 letters of the publisher
+SELECT left(publisher, 4)
+FROM console_games;
+
+-------------------------------------------------
+-- REVERSE
+-------------------------------------------------
+---> reverse(<column name>)
+
+-- reverses the order of the characters, retaining case sensitivity
+SELECT reverse(genre)
+FROM console_games;
