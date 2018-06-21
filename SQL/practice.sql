@@ -166,5 +166,16 @@ FROM console_games;
 -- Temporary Column
 -------------------------------------------------
 -- creates days_existed as a temporary column which contains the results of first_retail_availability - discontinued 
-SELECT *, first_retail_availability - discontinued AS days_existed
-FROM console_dates;
+SELECT *, discontinued - first_retail_availability AS days_existed
+FROM console_dates
+ORDER BY days_existed;
+
+-------------------------------------------------
+-- DATE_PART
+-------------------------------------------------
+---> DATE_PART('<date type>', <column name>)
+
+-- grabs the year from specified columns
+SELECT *, DATE_PART('year', discontinued) - DATE_PART('year', first_retail_availability) AS years_existed
+FROM console_dates
+ORDER BY years_existed;
