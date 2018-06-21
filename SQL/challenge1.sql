@@ -41,6 +41,20 @@ CREATE TABLE console_dates (
 -- import ConsoleDates csv file
 COPY console_dates FROM '/Users/iolaleye/Downloads/database/ConsoleDates.csv' DELIMITER ',' CSV HEADER;
 
+-- add global sales column to console_games table
+ALTER TABLE console_games
+ADD COLUMN global_sales float8;
+
+-- calculate global sales by combining north american, european, japan and other sales
+UPDATE console_games
+SET global_sales = na_sales + eu_sales + jp_sales + other_sales;
+
 -------------------------------------------------
 -- 1. Calculate what percentage of Global Sales were made in North America
 -------------------------------------------------
+ALTER TABLE console_games
+ADD COLUMN na_sales_percent float8;
+
+UPDATE console_games
+SET na_sales_percent = na_sales / global_sales * 100
+WHERE global_sales > 0;
