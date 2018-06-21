@@ -117,7 +117,7 @@ WHERE zip_code NOT LIKE '4%';
 WHERE zip_code NOT LIKE '%4%';
 
 -------------------------------------------------
--- COUNT
+-- COUNT()
 -------------------------------------------------
 ---> i.e. SELECT COUNT <column name(s)> FROM <table name> WHERE <column> <operator> <value>;
 
@@ -127,7 +127,7 @@ FROM consumer_complaints
 WHERE date_recieved = date_sent;
 
 -------------------------------------------------
--- LENGTH
+-- LENGTH()
 -------------------------------------------------
 ---> length(<column name>)
 
@@ -136,7 +136,7 @@ SELECT game_name, length(game_name)
 FROM console_games;
 
 -------------------------------------------------
--- LEFT
+-- LEFT()
 -------------------------------------------------
 ---> left(<column name>, <number>)
 
@@ -145,7 +145,7 @@ SELECT left(publisher, 4)
 FROM console_games;
 
 -------------------------------------------------
--- RIGHT
+-- RIGHT()
 -------------------------------------------------
 ---> right(<column name>, <number>)
 
@@ -154,7 +154,7 @@ SELECT left(publisher, 4)
 FROM console_games;
 
 -------------------------------------------------
--- REVERSE
+-- REVERSE()
 -------------------------------------------------
 ---> reverse(<column name>)
 
@@ -163,15 +163,17 @@ SELECT reverse(genre)
 FROM console_games;
 
 -------------------------------------------------
--- Temporary Column
+-- TEMPORARY COLUMN
 -------------------------------------------------
+---> create a temporary column
+
 -- creates days_existed as a temporary column which contains the results of first_retail_availability - discontinued 
 SELECT *, discontinued - first_retail_availability AS days_existed
 FROM console_dates
 ORDER BY days_existed;
 
 -------------------------------------------------
--- DATE_PART
+-- DATE_PART()
 -------------------------------------------------
 ---> DATE_PART('<date type>', <column name>)
 
@@ -179,3 +181,37 @@ ORDER BY days_existed;
 SELECT *, DATE_PART('year', discontinued) - DATE_PART('year', first_retail_availability) AS years_existed
 FROM console_dates
 ORDER BY years_existed;
+
+-------------------------------------------------
+-- AGE()
+-------------------------------------------------
+---> AGE(<column name>, <column name>)
+
+-- returns the amount of time between the two column dates in years, months and days
+SELECT *, AGE(discontinued, first_retail_availability) AS platform_alive
+FROM console_dates
+ORDER BY platform_alive;
+
+-------------------------------------------------
+-- CAST()
+-------------------------------------------------
+---> change data type
+
+-- temporarily change data type from integer to varchar 
+SELECT CAST(game_year as varchar(4))
+FROM console_games
+ORDER BY game_rank;
+
+-- shorthand method
+SELECT game_year::varchar(4)
+FROM console_games
+ORDER BY game_rank;
+
+-------------------------------------------------
+-- TO_DATE()
+-------------------------------------------------
+---> convert to a date format
+
+SELECT TO_DATE(CAST(game_year as varchar(4)), 'yyyy')
+FROM console_games
+ORDER BY game_rank;
