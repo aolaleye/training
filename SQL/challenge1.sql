@@ -71,3 +71,39 @@ ORDER BY platform ASC, game_year DESC;
 -------------------------------------------------
 SELECT game_name, left(publisher, 4)
 FROM console_games;
+
+-------------------------------------------------
+-- 4. Display all console platforms which were released either just before Black Friday or just before Christmas (in any year)
+-------------------------------------------------
+-- platforms released in either November or December
+SELECT platform_name
+FROM console_dates
+WHERE DATE_PART('month', first_retail_availability) - 11 = 0 OR DATE_PART('month', first_retail_availability) - 12 = 0;
+
+-------------------------------------------------
+-- 5. Order the platforms by the longevity in ascending order (i.e. the platform which was available for the longest at the bottom)
+-------------------------------------------------
+-- [ProsgreSQL]
+SELECT *, AGE(discontinued, first_retail_availability) AS platform_alive
+FROM console_dates
+ORDER BY platform_alive ASC;
+
+-- [MS SQL]
+SELECT *, DATEDIFF(YEAR, first_retail_availability, discontinued) AS platform_alive
+FROM [dbo].[console_dates]
+ORDER BY platform_alive ASC;
+
+-------------------------------------------------
+-- 6. Demonstrate how to deal with the Game_Year column if the client wants to convert it to a different data type
+-------------------------------------------------
+SELECT CAST(game_year as varchar(4))
+FROM console_games;
+
+
+-------------------------------------------------
+-- 7. Provide recommendations on how to deal with missing data in the file
+-------------------------------------------------
+-- to check for NULL data
+SELECT *
+FROM console_games
+WHERE game_name IS NULL;
