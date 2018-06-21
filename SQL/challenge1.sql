@@ -80,6 +80,11 @@ SELECT platform_name
 FROM console_dates
 WHERE DATE_PART('month', first_retail_availability) - 11 = 0 OR DATE_PART('month', first_retail_availability) - 12 = 0;
 
+-- platforms released in either November or December
+SELECT platform_name, first_retail_availability
+FROM console_dates
+WHERE first_retail_availability LIKE '_____11___' OR '_____12___';
+
 -------------------------------------------------
 -- 5. Order the platforms by the longevity in ascending order (i.e. the platform which was available for the longest at the bottom)
 -------------------------------------------------
@@ -96,8 +101,13 @@ ORDER BY platform_alive ASC;
 -------------------------------------------------
 -- 6. Demonstrate how to deal with the Game_Year column if the client wants to convert it to a different data type
 -------------------------------------------------
-SELECT CAST(game_year as varchar(4))
+SELECT CAST(game_year AS decimal)
 FROM console_games;
+
+-- or another way in [MS SQL]
+SELECT *
+FROM [dbo].[console_games]
+CONVERT(game_year, decimal);
 
 -------------------------------------------------
 -- 7. Provide recommendations on how to deal with missing data in the file
