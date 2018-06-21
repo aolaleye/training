@@ -8,3 +8,39 @@
 -- 5. Order the platforms by the longevity in ascending order (i.e. the platform which was available for the longest at the bottom)
 -- 6. Demonstrate how to deal with the Game_Year column if the client wants to convert it to a different data type
 -- 7. Provide recommendations on how to deal with missing data in the file
+
+-------------------------------------------------
+-- Input Data
+-------------------------------------------------
+-- create console_games table
+CREATE TABLE console_games (
+    game_rank integer,
+    game_name varchar(1200),
+    platform varchar(1200),
+    game_year integer,
+    genre varchar(20),
+    publisher varchar(1200),
+    na_sales float8,
+    eu_sales float8,
+    jp_sales float8,
+    other_sales float8    
+);
+
+-- import ConsoleGames csv file
+COPY console_games FROM '/users/iolaleye/Downloads/database/ConsoleGames.csv' DELIMITER ',' CSV HEADER;
+
+-- create console_dates table
+CREATE TABLE console_dates (
+    platform_name char(120),
+    first_retail_availability date,
+    discontinued date,
+    units_sold_mill float8,
+    platform_comment varchar(120)    
+);
+
+-- import ConsoleDates csv file
+COPY console_dates FROM '/Users/iolaleye/Downloads/database/ConsoleDates.csv' DELIMITER ',' CSV HEADER;
+
+-------------------------------------------------
+-- 1. Calculate what percentage of Global Sales were made in North America
+-------------------------------------------------
