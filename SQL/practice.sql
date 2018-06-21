@@ -36,7 +36,7 @@ SELECT name Name, description Description, price "Current Price" FROM products;
 -- WHERE
 -------------------------------------------------
 ---> SELECT <column name(s)> FROM <table name> WHERE <condition>;
----> i.e. SELECT <column name(s) FROM <table name> WHERE <column> <operator> <value>;
+---> i.e. SELECT <column name(s)> FROM <table name> WHERE <column> <operator> <value>;
 
 -- What are the titles and authors of the books in the library published in 1997?
 SELECT title, author FROM books WHERE first_published = 1997;
@@ -57,7 +57,7 @@ SELECT title FROM books WHERE id = 15;
 -------------------------------------------------
 -- AND
 -------------------------------------------------
----> i.e. SELECT <column name(s) FROM <table name> WHERE <column> <operator> <value> AND <column> <operator> <value>;
+---> i.e. SELECT <column name(s)> FROM <table name> WHERE <column> <operator> <value> AND <column> <operator> <value>;
 
 -- both conditions must be true
 SELECT company, product_name, issue
@@ -67,7 +67,7 @@ WHERE state_name = 'CA' AND timely_response = 'YES';
 -------------------------------------------------
 -- OR
 -------------------------------------------------
----> i.e. SELECT <column name(s) FROM <table name> WHERE <column> <operator> <value> OR <column> <operator> <value>;
+---> i.e. SELECT <column name(s)> FROM <table name> WHERE <column> <operator> <value> OR <column> <operator> <value>;
 
 -- either condition must be true
 SELECT company, product_name, issue
@@ -77,7 +77,8 @@ WHERE state_name = 'CA' AND timely_response = 'YES';
 -------------------------------------------------
 -- WILDCARDS
 -------------------------------------------------
----> i.e. SELECT <column name(s) FROM <table name> WHERE <column> LIKE <value>;
+---> i.e. SELECT <column name(s)> FROM <table name> WHERE <column> LIKE <value>;
+---> i.e. SELECT <column name(s)> FROM <table name> WHERE <column> NOT LIKE <value>;
 ---> used to specify words or phrases you're looking to find
 
 -- looking for product names that contain the word 'Credit'
@@ -114,3 +115,13 @@ WHERE zip_code NOT LIKE '4%';
 
 -- to search for zip code that does NOT contain 4 at all
 WHERE zip_code NOT LIKE '%4%';
+
+-------------------------------------------------
+-- COUNT
+-------------------------------------------------
+---> i.e. SELECT COUNT <column name(s)> FROM <table name> WHERE <column> <operator> <value>;
+
+-- return the number of instances where date_required = date_sent
+SELECT COUNT (complaint_id)
+FROM consumer_complaints
+WHERE date_recieved = date_sent;
