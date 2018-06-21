@@ -1,0 +1,10 @@
+-------------------------------------------------
+-- CHALLENGE 1
+-------------------------------------------------
+-- 1. Calculate what percentage of Global Sales were made in North America
+-- 2. Extract a view of the console game titles ordered by platform name in ascending order and year of relase in descending order
+-- 3. For each game title, extract the first four letters of the publisher's name
+-- 4. Display all console platforms which were released either just before Black Friday or just before Christmas (in any year)
+-- 5. Order the platforms by the longevity in ascending order (i.e. the platform which was available for the longest at the bottom)
+-- 6. Demonstrate how to deal with the Game_Year column if the client wants to convert it to a different data type
+-- 7. Provide recommendations on how to deal with missing data in the file
