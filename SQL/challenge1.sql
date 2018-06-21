@@ -65,3 +65,9 @@ WHERE global_sales > 0;
 SELECT *
 FROM console_games
 ORDER BY platform ASC, game_year DESC;
+
+-------------------------------------------------
+-- 3. For each game title, extract the first four letters of the publisher's name
+-------------------------------------------------
+SELECT game_name, left(publisher, 4)
+FROM console_games;
