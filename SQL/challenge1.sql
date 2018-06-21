@@ -10,7 +10,7 @@
 -- 7. Provide recommendations on how to deal with missing data in the file
 
 -------------------------------------------------
--- Input Data
+-- Create Tables / Import Data
 -------------------------------------------------
 -- create console_games table
 CREATE TABLE console_games (
@@ -58,3 +58,10 @@ ADD COLUMN na_sales_percent float8;
 UPDATE console_games
 SET na_sales_percent = na_sales / global_sales * 100
 WHERE global_sales > 0;
+
+-------------------------------------------------
+-- 2. Extract a view of the console game titles ordered by platform name in ascending order and year of relase in descending order
+-------------------------------------------------
+SELECT *
+FROM console_games
+ORDER BY platform ASC, game_year DESC;
