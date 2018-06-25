@@ -63,7 +63,23 @@ COPY procedurehistory FROM '/users/iolaleye/Downloads/database/ProceduresHistory
 -------------------------------------------------
 -- 1. Extract information on pet names and owner names side-by-side
 -------------------------------------------------
+-- join tables and show all info
 SELECT *
 FROM pets
 LEFT JOIN owners
+ON pets.ownerid = owners.ownerid;
+
+-- shows name of pets and corresponding owner
+SELECT pets.name, owners.name
+FROM pets
+LEFT JOIN owners
+ON pets.ownerid = owners.ownerid;
+
+-- shows the names of the pets and owners that start with the same letter
+SELECT pets.name, owners.name
+FROM pets
+LEFT JOIN owners
 ON pets.ownerid = owners.ownerid
+WHERE LEFT(pets.name, 1) = LEFT(owners.name, 1);
+
+
