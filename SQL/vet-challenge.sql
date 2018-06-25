@@ -82,4 +82,16 @@ LEFT JOIN owners
 ON pets.ownerid = owners.ownerid
 WHERE LEFT(pets.name, 1) = LEFT(owners.name, 1);
 
+-- using an alias
+SELECT A.name, B.name
+FROM pets AS A
+LEFT JOIN owners AS B
+ON A.ownerid = B.ownerid
+WHERE LEFT(A.name, 1) = LEFT(B.name, 1);
 
+-- using aliases for columns (remember the AS keyword can be eliminated)
+SELECT A.name AS pet_name, B.name AS owner_name
+FROM pets AS A
+LEFT JOIN owners AS B
+ON A.ownerid = B.ownerid
+WHERE LEFT(A.name, 1) = LEFT(B.name, 1);
