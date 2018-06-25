@@ -1,0 +1,8 @@
+-------------------------------------------------
+-- CHALLENGE 2
+-------------------------------------------------
+-- 1. Extract information on pet names and owner names side-by-side
+-- 2. Find out which pets from this clinic had procedures performed
+-- 3. Match up all procedures performed to their descriptions
+-- 4. Same as above but only for the pets from the clinic in question
+-- 5. Extract a table of individual costs (procedure prices) incurred by owners of pets from the clinic in question (this table should have owner and procedure price side-by-side)
