@@ -20,9 +20,6 @@ CREATE TABLE pets (
     ownerid varchar
 );
 
--- import Pets.csv file
-COPY pets FROM '/users/iolaleye/Downloads/database/Pets.csv' DELIMITER ',' CSV HEADER;
-
 -- create owners table
 CREATE TABLE owners (
     ownerid varchar,
@@ -35,9 +32,6 @@ CREATE TABLE owners (
     zipcode varchar
 );
 
--- import Owners.csv file
-COPY owners FROM '/users/iolaleye/Downloads/database/Owners.csv' DELIMITER ',' CSV HEADER;
-
 -- create proceduredetails table
 CREATE TABLE proceduredetails (
     proceduretype varchar,
@@ -45,9 +39,6 @@ CREATE TABLE proceduredetails (
     description varchar,
     price float
 );
-
--- import proceduredetails.csv file
-COPY proceduredetails FROM '/users/iolaleye/Downloads/database/proceduredetails.csv' DELIMITER ',' CSV HEADER;
 
 -- create procedurehistory table
 CREATE TABLE procedurehistory (
@@ -57,6 +48,22 @@ CREATE TABLE procedurehistory (
     proceduresubcode varchar
 );
 
--- import procedurehistory.csv file 
-COPY procedurehistory FROM '/users/iolaleye/Downloads/database/procedurehistory.csv' DELIMITER ',' CSV HEADER;
+-- import Pets.csv file
+COPY pets FROM '/users/iolaleye/Downloads/database/Pets.csv' DELIMITER ',' CSV HEADER;
 
+-- import Owners.csv file
+COPY owners FROM '/users/iolaleye/Downloads/database/Owners.csv' DELIMITER ',' CSV HEADER;
+
+-- import proceduredetails.csv file
+COPY proceduredetails FROM '/users/iolaleye/Downloads/database/ProceduresDetails.csv' DELIMITER ',' CSV HEADER;
+
+-- import procedurehistory.csv file 
+COPY procedurehistory FROM '/users/iolaleye/Downloads/database/ProceduresHistory-1.csv' DELIMITER ',' CSV HEADER;
+
+-------------------------------------------------
+-- 1. Extract information on pet names and owner names side-by-side
+-------------------------------------------------
+SELECT *
+FROM pets
+LEFT JOIN owners
+ON pets.ownerid = owners.ownerid
