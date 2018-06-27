@@ -105,5 +105,13 @@ FROM pets AS A
 INNER JOIN procedurehistory AS B
 ON A.petid = B.petid;
 
+-- full outer join - also shows the results with no matches, so it also shows the pets that haven't had any procedures
+SELECT * 
+FROM pets AS A
+FULL OUTER JOIN procedurehistory AS B
+ON A.petid = B.petid;
 
+-------------------------------------------------
+-- 4. Same as above but only for the pets from the clinic in question
+------------------------------------------------
 
