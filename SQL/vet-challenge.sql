@@ -95,3 +95,15 @@ FROM pets AS A
 LEFT JOIN owners AS B
 ON A.ownerid = B.ownerid
 WHERE LEFT(A.name, 1) = LEFT(B.name, 1);
+
+-------------------------------------------------
+-- 3. Match up all procedures performed to their descriptions
+------------------------------------------------
+-- inner join
+SELECT * 
+FROM pets AS A
+INNER JOIN procedurehistory AS B
+ON A.petid = B.petid;
+
+
+
