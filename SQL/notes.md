@@ -73,5 +73,5 @@ __Types of Joins__
     - the right table is the primary table, no rows will be discarded from it
     - the data from the two tables that overlap join the primary table and any remaining rows from the non-primary table are discarded
 - __Full Outer Join__
-    - the join will not discard any of the rows in in any of the two tables
+    - the join will not discard any of the rows in any of the two tables
     - the tables are glued together
