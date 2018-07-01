@@ -54,7 +54,7 @@ __Relational Keys__
 
 __Relational Database__
 - a digital database whose organization is based on the relational model of data
-- set of tables that satisfy _entity integrity_, _domain integrity_, _referential integrity_, _user-defined integrty_
+- set of tables that satisfy _entity integrity_, _domain integrity_, _referential integrity_, and _user-defined integrity_
 
 __Functional Dependency__
 - dependency occurs when an attribute or set of attributes identifies a particular value of another attribute
