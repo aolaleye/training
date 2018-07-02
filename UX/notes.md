@@ -10,7 +10,7 @@ __The Foundation of UX__
     3. What are the users' experience levels?
     4. What functions or information do users need?
     5. How do users think the product should work?
-  - UCD is __different__ than _participitory design_ - where we attempt to include all stakeholders in the process
+  - UCD is __different__ than _participatory design_ - where we attempt to include all stakeholders in the process
   - UCD focuses on the _persona_ - _behavioral representation of a user type_ (also used as a term for a UX deliverable)
   
 __Why UX is important to creating products and services__
@@ -74,3 +74,17 @@ __Understanding Users and Content__
     - content can be videos, articles, and pictures - but it is also any piece of information that is being exchanged with the product i.e. ads, forms, etc.
     - a UXer must determine what content the user needs from the product in order to solve their problem, reach their goals, and complete their tasks
   
+__Understanding Context__
+- Uxers need a way to govern which content and information the user should see and when in order to help facilitate their ideal experience with out product
+- Types of Context
+  - __Environmental Context__
+    - what environment or setup is the user in when they use our solution
+      - _Is our product a mobile application that people will be using while traveling?_
+      - _Are they likely to be in a hotel on a crappy WiFi connection?_
+      - _Are users that use our product using it in times of distress, like when putting in an automobile claim for insurance?_
+  - __Context in the details__
+    - _When on this page, what details has the user already entered and/or seen before?_
+    - _What information or content can we reuse? What do we have to explain new?_
+- for both types of context, we are trying to establish an empathetic point of view, so we can piece together an experience that is fluid and user-centric
+- the ultimate goal is to __decrease the user's cognitive load, so that their anxiety when using our product is lessened, and their delight is heightened__ - getting information in the right place at the right time
+- by understanding the context of where, when and how people will use your product, you can try to predict what information they'll need and when they'll need it thereby helping them to achieve their goals
