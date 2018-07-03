@@ -212,6 +212,51 @@ __Tools for Understanding Content and Context__
 - __Content Inventory__
   - Excel or some other spreadsheet software
 
+__Tools for Modeling the Experience__
+- Two ways you'll hear the term user experience used:
+  1. The user's overall experience with a company through multiple moments of contact like using the website and calling customer service
+  2. One moment of contact - such as the user's experience for submitting a claim
+- __Modeling the Experience__
+  - This can happen at two levels:
+    1. Modeling the user's overall experience with a company
+    2. Modeling many moments of contact that are strung together
+  - Methods to do this:
+    - __Customer or User journeys__
+      - maps that point out each step that a user has to take while completing ther task 
+      - i.e. researching, planning and purchasing a trip to Europe
+      - Photoshop, Illustrator, OmniGraphel, Viseo
+    - __Flow Diagrams__
+      - if you are modeling a less complex experience or a single moment of contact, you may use a flow diagram that displays the steps the user takes through the experience
+      - Viseo, OmniGraphel, Illustrator, Powerpoint
+    - __Wireframes__
+      - diagrams or blueprints that you can use to show information relationships on pages and views
+      - OmniGraphel, Illustrator, Viseo, InDesign
+    - __Comps__
+      - comps are usually created by a visual designer and are used for showing the details of a specific moment of contact throughout the user's experience
+      - static images that showcase how the information presented in wireframes lays out with a given aesthetic
+    - __Prototypes__
+      - prototypes are taking the place of wireframes and comps in may organizations
+      - interactive working visuals of a moment of contact
+      - show the information relationships, the aesthetic, and the interactivity of a moment of contact
+      - You can create low fidelity to high fidelity prototypes by using tools ranging from Powerpoint to HTML
+- __Tools for Testing__
+  - testing can be as formal or as informal as needed
+  - Types of Usability Testing
+    - __Moderated vs Unmoderated__
+      - __Moderated Usability Testing__
+        - there is a moderator or facillitator sitting with the participant to assign tasks and ask questions
+        - there is a tester and test participant talking together
+        - whether conducted in person or remotely, moderated usability testing is much like user interviews at least in setup - you need to recruit the right participants, conduct the session and then analyze your results
+        - you may want to record the actual screen of the user so you can see where they clicked and where they didn't
+        - Silverback - _screen recording software_
+      - __Unmoderated Usability Testing__
+        - instead of facillitating a conversation with the user, one puts together questions and tasks that the user can answer and complete on their own
+        - Usertesting.com - _unmoderated service that allows you to set recruitment criteria and recruit the users for you
 
-
- 
+__Proving the Value of UX__
+- __Selling UX__
+  - understand what your business and technology partners value
+  - describe to them how UX meets those values
+  - _"My skill set aims at understanding user behavior, if we can understand that, then we can predict and create hypotheses around what may be causing the problem. Once we figure that out, we should be able to design a solution that increases use rates and therefore conversion rates."_
+  - Understanding users = cost savings and higher revenues
+           
