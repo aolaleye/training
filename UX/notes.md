@@ -19,7 +19,7 @@ __Why UX is important to creating products and services__
   - __What makes a great experience?__
     - great experience design is _invisible_, _cultural_, and _multidisciplinary_
     - great experiences are _holistic_
-      - they take into account not only the user and their needs but also think about supporting a business cause and take into account the technology available at the time
+      - they take into account not only the user and their needs but they also think about supporting a business cause and take into account the technology available at the time
     - great experiences extend beyond the interface of a product into a multichannel world where you are getting the same message from the same company no matter where you intersect with them 
     - _i.e. when you consider Apple, one knows they are getting quality product whether on the website or in the store. Apple's message of excellence and forward-thinking excudes from whatever touchpoint the user interacts with
   
