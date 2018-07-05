@@ -38,7 +38,7 @@ __UX Disciplines__
   - ensures that the way the user interacts with the site is always consistent
 - __Usability__
   - the discipline that involves validating interfaces, flows and overall products to ensure we are checking in with our user throughout the process and making sure our products meet their needs and are easy to use
--__User Research__
+- __User Research__
   - the discipline that involves going out and observing users, their behavior and analyzing what their needs, goals and tasks are
 
 __Problem Solvers__
