@@ -60,9 +60,32 @@ __Design Thinking__
   - Story First
     - attractive visuals may distract from your story, so consider the fidelity in which you communicate your story
     - if you're early in the process, keep the fidelity low 
-    - if you're further along =, then higher fidelity images would make sense
+    - if you're further along, then higher fidelity images would make sense
   - Getting Feedback
     - go into the presentation with the intent of getting feedback
     - rather than opening up the floor asking for general feedback, begin the Q&A section with fairly directed questions aimed at the top stakeholders
       - this will let them know what you actually want feedback on and you will maintain the ability of actually running the meeting
     
+__Understanding the Different Types of Design__
+- __The 3 Principles of Architecture__
+  1. __Durability__
+    - it should last
+  2. __Usability__
+    - it should have purpose
+  3. __Beauty__
+    - it should appear delightful
+- __Graphic Design__
+  - the design of visual communication
+  - where we can take a message and correlate it with the elements of art to relay a message
+  - where we can change peoples' perception or thoughts on a particular message
+  - _"turning a want into a need"_
+- __Web/Mobile Design - User Interface__
+  - there are two levels of desing when dealing with web a mobile design:
+  1. __the design of the content__
+    - which you are there to see
+  2. __the design of the interface (UI Design)__
+    - designing specifically for the user's interactions - meaning you have the content already in hand and are you are performing the task of serving that content up
+    - presenting the user with the best possible solution for them to view and interact with the content
+- __Systems Design - User Experience__
+  - defining objects and how the interaction presents and forms data - thus a system based on requirements
+
