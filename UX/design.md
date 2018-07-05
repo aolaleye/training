@@ -28,6 +28,41 @@ __Design Thinking__
     - blockers in a user's experience
     - this may be emotional, technological, process-based or physical
     - severity of pain will vary with each example
-    
-    
+  - __Prioritization__
+    - defining the importance of action items
+  - __Triage__
+    - acting upon the prioritized action items taking care of the most important items first
+  - __Big Idea__
+    - a holistic and open-ended solution to a user's pain based in a user's motivation or needs
+  - __Feature__
+    - a prescriptive non-holistic response to a user's pain based in technology
+  - __Vignette__
+    - a brief but descriptive depiction of events
+  - __"Getting Caught in the Weeds"__
+    - an idiom that refers to being distracted by details and losing sight of the intended purpose
+  - __Self-compassion__
+    - allowing for kindness and mindful forgiveness of oneself during times of failure
+  - __Storyboard__
+    - a visual form of storytelling used to show a user's journey
+    - comporesed of panels filled with art (high or low fidelity) and accompanying text
+- __Presenting your Findings__
+  - __Roadmap__
+    - a time-based mapping of design decisions and the user impact of those decisions
+  - Three things to remember when structuring your stakeholder presentation
+    1. Simple Story
+      - keep the story tight and easy to follow
+    2. Maintain Empathy
+      - use your user's name to maintain empathy with your audience and to guide the narrative
+    3. Solve the Pain
+      - explain how your solution solves your user's pain
+  - Time Management
+    - be sure to set enough time to better the story so you're telling the points that matter most for you
+  - Story First
+    - attractive visuals may distract from your story, so consider the fidelity in which you communicate your story
+    - if you're early in the process, keep the fidelity low 
+    - if you're further along =, then higher fidelity images would make sense
+  - Getting Feedback
+    - go into the presentation with the intent of getting feedback
+    - rather than opening up the floor asking for general feedback, begin the Q&A section with fairly directed questions aimed at the top stakeholders
+      - this will let them know what you actually want feedback on and you will maintain the ability of actually running the meeting
     
