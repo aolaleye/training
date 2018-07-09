@@ -67,7 +67,7 @@ __Design Thinking__
       - this will let them know what you actually want feedback on and you will maintain the ability of actually running the meeting
     
 __Understanding the Different Types of Design__
-- __The 3 Principles of Architecture__
+- __The 3 Principles of Architecture (Vitruvius)__
   1. __Durability__
     - it should last
   2. __Usability__
@@ -88,4 +88,14 @@ __Understanding the Different Types of Design__
     - presenting the user with the best possible solution for them to view and interact with the content
 - __Systems Design - User Experience__
   - defining objects and how the interaction presents and forms data - thus a system based on requirements
+  - can be comprised of multiple mediums
 
+__Great Designers__
+  - Charles and Ray Eames
+    - main focus was architecture and furniture
+    - "Powers of Ten"
+      - the zoom effect we still see today in movies
+    - "Eames Lounge Chair"
+  - Herb Lubalin
+    - collaborated on 3 Ginzburg magazines - Eros, Fact and Avant Garde
+    - changed the perception of typography through his exploration of typographics
