@@ -156,5 +156,5 @@ __Understanding Aesthetics__
     _ __Contour Lines__ - creating illustrations just using lines
     - We can have _organized_ or _unorganized_ lines
     - You can use _negative space_ to show where a line may be
-    - When dealing with graphic dsign, a lot of designers use a __Grid__ - which is comprised of horizontal and vertical lines
-    
+    - When dealing with graphic design, a lot of designers use a __Grid__ - which is comprised of horizontal and vertical lines
+
