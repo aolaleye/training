@@ -1,12 +1,12 @@
 __What is Usability?__
-    - __how easy it is to use__
+- __how easy it is to use__
     - includes the various parts of the interface, such as buttons and links
     - the organization of the content
     - bringing it all together with menus and navigation that are clear and effective
-    - __in the end, the usability of what you are building has a direct correlation to the user's ability to get things done and to be satisfied__
-    - providing positive interaction, building trust, and allowing users to be successful
-    - __User Centered Approach__
-        - instead of focusing exclusively on the wants and needs of the company or ourselves, we focus on the wants and needs of the user
+- __in the end, the usability of what you are building has a direct correlation to the user's ability to get things done and to be satisfied__
+- providing positive interaction, building trust, and allowing users to be successful
+- __User Centered Approach__
+    - instead of focusing exclusively on the wants and needs of the company or ourselves, we focus on the wants and needs of the user
     - Usability isn't completely measurable
         - requires qualitative and quantitative data
             - i.e. website analytics and SEO results as well as more opinion-based feedback such as the responses from user interviews or testing
