@@ -66,6 +66,7 @@ __Design Thinking__
     - rather than opening up the floor asking for general feedback, begin the Q&A section with fairly directed questions aimed at the top stakeholders
       - this will let them know what you actually want feedback on and you will maintain the ability of actually running the meeting
     
+<<<<<<< HEAD:UX/design.md
 __Understanding the Different Types of Design__
 - __The 3 Principles of Architecture (Vitruvius)__
   1. __Durability__
@@ -158,3 +159,5 @@ __Understanding Aesthetics__
     - You can use _negative space_ to show where a line may be
     - When dealing with graphic design, a lot of designers use a __Grid__ - which is comprised of horizontal and vertical lines
 
+=======
+>>>>>>> 7b6d6c6b5fedc353466e08ca5bf3a06b747a9a4e:UX/design_thinking.md
