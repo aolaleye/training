@@ -1,0 +1,123 @@
+__What is a Design Pattern?__
+- when browsing the web or using a mobile device, often you'll see the same controls and user interfaces over and over again
+    - i.e. __Pagination__ - a search can yield millions of results, so at the bottom of a page, there are some arrows and page numbers that you can use to navigate to different pages and see the rest of the results
+    - Pagination is used over and over again because _solves the problem of there being to much information to display reasonably on one giant scrolling page_
+    - the reason we see pagination over and over again is because the same problem occurs over and over again
+    - __it's a problem that repeats itself in a pattern, so it can be solved with the same design solution__
+- __A design pattern is a _reusable solution_ to a _common problem_.__
+- Two types of design patterns in UX
+    1. UI Patterns
+    2. Persuasive Patterns
+- __UI Patterns__
+    - cases where the user needs to read or input information, and they would be better served if the information and the available interactions had a conceptual relationship to the visual design
+    - Examples of UI patterns are _tabs, shopping carts, and calendar pickers_
+- __Persuasive Patterns__
+    - this is a little less visual because in many cases, it's meant to silently guide the user toward a designed behavior
+    - For example, when you're looking for an item on Amazon.com, they'll sometimes tell you that there is only a few more of the item left in stock or they'll tell you the item is on sale or they'll tell you that if you order the item in the next few hours, you'll receive it by a certain date
+        - These are an example of __Scarcity__ - which is a subset of persuasive patterns that push you to perform an action because there's limited time or limited choices
+    - Another example of a persuasive pattern is called __Sequencing__ - when you're done shopping on Amazon and you go to check out, you're taken through a process one step at a time 
+        - you type in your address, your billing information, choose a shipping option, and then confirm your information
+        - breaking down each part of the checkout process into a different page makes the overall task of purchasing the item a bit more manageable and easy to understand
+
+__UI versus UX__
+- __UI__
+    - __the mode of interaction for a product__
+    - in a website or mobile app, it's __the buttons, icons, menus, and all the things a user can click or tap__
+    - in spatial computing, like virtual reality or augmented reality, it's the things a user can touch with controllers or hands
+    - in audio interfaces, like Voice Assistance, it's the phrases and commands the user can say
+    - the definition of UI will expand over time as more devices and modes of interaction become available
+- __UX__
+    - __they way it feels to use a product__
+    - __the emotions and thoughts that a person has as they try to accomplish a task using a piece of software__
+    - UX can also include other aspects of the company, like the product marketing or customer support, to encompass the experience a user might have throughout the entire life cycle of a product
+- There is a relationship between UI and UX because the UX could be heavily influenced by the UI
+    - __When a user is navigating through an experience, their feelings and emotions are largely influenced by how they interact with a product through the UI__
+
+__Examples of UI Patterns__
+- __Form Patterns__
+    - on web and mobile apps, it's common for the user to input information in a web form, and __if the user doesn't put in data in the way the system expects, we need to provide the user with feedback so they can make corrections__
+        - this is called __Form Validation__
+        - we should always have server side validation to check the input in case the user inputs a bad email or false credit card
+        - instead of the user finding out that the information was bad _after_ submitting the form, you can add __real-time form validation__
+            - real-time form validation is __advice that will pop up when the user moves from one form field to the next__
+                - i.e. a check mark will indicate a good input and an X will show where corrections need to be made
+    - another form pattern is a __Password Strength Meter__
+        - __to tell the user if they have a weak password or a strong password__, but still accept weak passwords if they choose to submit them
+    - __these patterns allow users to get feedback _before_ they submit the form, which can encourage good security practices with stronger passwords, and it saves some time because they don't have to submit the form to see if their input is valid__
+- __Additional Input Patterns__
+    - __Calendar Picker__
+        - __the user can use the top left and right arrows to change months and then click on a date to select it__
+            - this solves the problem of a user inputting dates in a form input in a format in a way that the system won't be able to retrieve
+    - __Drag and Drop__
+        - when the user can click and drag a handle, and as they drag an item to another place on the list, the list will rearrange itself
+        - __this allows the user to prioritize items on a list__
+- __Content Patterns__
+    - there are a lot of ways to organize content on a site, often there are so many images, videos and blocks of text that _it can be a challenge to put it together in a way that doesn't overwhelm the user_
+    - __Image Carousel or Image Slider__
+        - __allows users to view one image or piece of information at a time__
+        - dots at the bottom indicate how many items there are, with one dot highlighted to show which item is currently being displayed
+        - the arrows on the left and right of the image slider are used to manually go from one image to the next
+    - __Tabs__
+        - __a user can click on each tab to view different panels or cards of information, one at a time__
+        - tabs serve a simillar function to a carousel as you have a lot information to display, but you might not want to display it all at once
+            - this can be to reduce scrolling or to clean up the page design, or that you can display text and images at larger sizes - especially on mobile devices where screen sizes are limited
+        - tabs are best used for _text content_ because the user has control over when that text is displayed and they can read at their own pace
+        - whereas carousels that automatically rotate tend to work best for images, especially when those images belong together - such as multiple shots of the same product or photos from a single event or location
+            - after the user sees one of the images in a set, they are able to quickly scan new images because they don't typically contain lots of new information
+- __Data Patterns__
+    - in addition to text, images and videos, websites often contain sets of data
+    - specifically referring to the type of data that could be displayed with columns and rows
+    - __Sorting__
+        - one way to __help a user organize tabular data__ is to use a pattern called Sorting or Sort by Column
+            - Sort by Column typically comes in the form of small arrows in each table header cell that point up or down
+            - when the user clicks on one of the table headers, the table sort will change to ascending or descending (i.e. Price sorted high to low)
+    - __Row Striping__
+        - __differentiing the rows using a contrast of color or value helps improve readability on UX__
+        - it allows you to get rid of all of the lines because the change in value makes it own line
+    - __Table Filtering__
+        - __to cut the actual size of the table down and look at a subset of the data__
+        - a user can filter by topic, skill level, price, etc.
+        - this pattern works well when there is a limited number of possible items in a column - however, if there is a large number of items, or if every row is unique (such as a Name column), then a filter doesn't really makes sense because it would just be the exact same list as the entire column
+- __Tutorialization Patterns__
+    - when a user jumps into a phone app or web application for the first time, they need to be given some guidance - hardly ever is a user interface self-explanatory
+    - app tutorials, also called on boarding, should guide users through their first steps and help elevate them to intermediate users as quickly as possible
+    - __when an application doesn't have any user data yet__, this is often referred to as the __Blank Slate__
+    - you can give users an idea of what something will look like after they have completed the task
+        - _i.e. "here is what your gallery will look like after you've uploaded photos"_
+    - __Walkthrough or Guided Tour__
+        - __as a user goes through each step for the first time, we can provide some additional helper text that calls out the action__ and intentionally look incongruent with the design
+
+__Examples of Persuasive Patterns__ 
+- UI patterns are often the most visible solutions to user experience problems, but __persuasive patterns can help drive a user's behavior toward a goal__
+- __A persuasive pattern, sometimes called a _behavioral pattern_, is a type of design pattern that can be used to influence a user's decision-making and increase their engagement with the product.__
+- __Perception and Memory__   
+    - __Recognition over Recall__
+        - __where users can choose from a preset list of items rather than creating the list themselves__
+- __Chunking__
+    - __breaking down information into more manageable pieces__
+- __Sequencing__
+    - __when large tasks are broken down into smaller tasks that are easier to focus on one at a time__
+    - __Indicator__
+        - it is beneficial to provide the user with an indication of how many steps they've completed in a sequence and how many they have left to go so the user isn't led to believe it is a never-ending process giving them cause to quit
+- __Gamification__
+    - __to make tasks more fun by turning them into some type of game__
+    - we can motivate users toward the completion of a challenge or goal by praising them and then providing them with a new challenge
+        - _i.e. "You've been learning for 3 days in a row, keep it up!"_
+        - Treehouse is a good example as users earn a badge after each completed lesson as well as providing a progress graph to motivate users to continue learning and continue to be consistent
+    - __Challenge__
+        - encourages the user to reach for more
+        - _i.e. "Extra Credit: Recreate the project using a different framework"_
+        - these types of challenges should be used very carefully because if users aren't asked to do more, they might get bored - but if they're faced with too many challenges on a regular basis, they might start to feel overwhelmed, like they're not up to the task
+    - Gamification could also use points or leaderboards on a shopping website to encourage repeat customers, or show a small graph that indicates the percentage of completion for a user's profile page
+- __Cognition__
+    - we want the best for ourselves, and we don't want to miss opportunites
+    - __Limited Choice__
+        - __when there are only a few options, rather than a big long list, we're more likely to make a decision because we can more easily compare the choices__
+    - __Scarcity__
+        - __to create a pressure to buy__
+        - they imply there is a limited amount of time to get a sale price or running low on inventory and if you leave and come back later, they might be sold out of a limited piece of merchandise
+        - _i.e. "Sale ends tomorrow!"_
+    - __Status Quo Bias__
+        - __we imply that an item is the default option and make it more attractive than the others__
+        - this can be done by increasing the scale, changing its shape, or putting it in a prominent place - like right in the middle, labeling it the most popular, etc.
+
