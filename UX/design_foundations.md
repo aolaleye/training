@@ -89,4 +89,45 @@ __Understanding Aesthetics__
     - We can have _organized_ or _unorganized_ lines
     - You can use _negative space_ to show where a line may be
     - When dealing with graphic dsign, a lot of designers use a __Grid__ - which is comprised of horizontal and vertical lines
-    
+- __Size & Texture__
+  - __Size__
+    - a quality of the primary visual elements line and shape
+    - all elements have a definitive size, which is its measurable form
+  - __Scale__
+    - the difference between two objects or in comparison to a standard
+    - scale allows us to indiate if something is too small or too large
+    - if we're referring to the harmony of 2 objects in comparison, this is __defining the proportion__
+      - this is judged by the ratio of scale from one comparison to 2 or more objects
+  - __Texture__
+    - the quality of feel, appearance or consistency of an object or objects
+    - every shape and line has texture
+    - there's _implied texture_, like legos, or there's _visual texture_, which is different than implied as there is no touch
+    - implied = touch
+  - __Pattern__
+    - a repeated decorated design
+    - patterns are broken up into a _motif_
+    - when we repeat a motif, we have constructed a pattern
+- __Color__
+  - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
