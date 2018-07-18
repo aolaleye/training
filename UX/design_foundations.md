@@ -108,19 +108,62 @@ __Understanding Aesthetics__
     - patterns are broken up into a _motif_
     - when we repeat a motif, we have constructed a pattern
 - __Color__
-  - 
-
-
-
-
-
-
-
-
-
-
-
-
+  - the way light reflects off an object
+  - color can define a shape, portray emotion or emphasize an object
+  - measured by hue, saturation, and value
+  - when we name a color by description, we are describing the color's hue
+  - color __sensations__ are used to categorize hues - such as hot, warm or cold colors
+  - __monochromatic__
+    - of the same color, or one color
+    - when a group of colors are the same hue, tint, tone and shade
+  - __tint__
+    - a mixture of color with white
+    - _highlights_
+  - __shade__
+    - a mixture of color with black
+    - _shadows_
+  - __tone__
+    - in the middle between tint and shade
+    - a mixture of grey, or tinting and shading at the same time
+  - __primary colors__
+    - red, yellow, blue
+  - __analog or secondary colors__
+    - when we exist two pre-existing colors to form another color
+    - _i.e. red + yellow = orange_
+  - __complementary colors__
+    - on the color wheels, colors that are directly opposite of each other
+    - complementary colors are of the highest contrast from one another
+  - __triad colors__
+    - 3 colors of equal distance from one another on the color wheel
+    - _i.e. green, pink & light blue_
+  - __saturation__
+    - the intensity, strength and chroma of the color
+    - colors that have high saturation are described as vibrant and bright
+    - colors that have low saturation are described as dull and pale
+    - saturation can be scaled from low to high
+      - as colors decreases in saturation, it takes the appearance of grey
+      - colors that are high in saturation are __chromatic__
+      - __neutral__ colors have minimal saturation - warm and cool colors
+      - __achromatic__ colors are colors that have no saturation whatsoever - white, black & grey
+  - __value__
+    - refers to the lightness and darkness of a color
+    - can also be measured by scale from white to black - thus, shades of grey between
+    - the comparison of shades is the indicator of measurement and determines the value
+    - _value comparisons_ - white to black or black to white
+    - _color comparisons_ - yellow to purple or vice versa
+    - the value scale is comprised of tints, shades and tone, these can also be measured by __keys__
+      - a __high key__ refers to a very light-dominant design
+      - an __intermediate key__ refers to the mid-range value design
+      - a __low key__ refers to a dark value design
+      - the entire value scale is referred to as the __total range of the design__
+        - __low scale__ is known as low range or low contrast
+        - __high scale__ is known as high range or high contrast
+    - __simultaneous contrast__
+      - neighboring colors that cause change in your perception 
+      - lighter becomes darker, and darker becomes lighter when in comparison
+    - __optimal mixing__
+      - this is done when contrasting 2 colors to give the effect of 1 color
+      - your perception of the contrast evens the color out in comparison
 
 
 
