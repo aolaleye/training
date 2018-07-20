@@ -164,11 +164,22 @@ __Understanding Aesthetics__
     - __optimal mixing__
       - this is done when contrasting 2 colors to give the effect of 1 color
       - your perception of the contrast evens the color out in comparison
-
-
-
-
-
+- __Composition__
+  - the placement or arrangement of visual elements or ingredients in a layout
+  - __Structure__
+    - the way that composition is organized
+    - we look at the structure as a blueprint of the composition
+    - the structure can be loose or rigid
+    - the _foreground_ and _background_ are crucial when composing a composition
+      - the __figure-ground__
+        - the relationship between foreground and background - where both elements are dependent of one another
+  - __Composition Techniques__
+    - __Rule of Thirds__
+      - a way to cut the composition up into nine different sections and use the opposing sections to balance one another or to highlight a specific element
+    - __Rule of Odds__
+      - an odd number of objects is more pleasing to the eye than an even number
+    - __Rule of Space__
+      - creating movement in a composition
 
 
 
