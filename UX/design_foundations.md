@@ -180,8 +180,16 @@ __Understanding Aesthetics__
       - an odd number of objects is more pleasing to the eye than an even number
     - __Rule of Space__
       - creating movement in a composition
-
-
-
-
+- __Space & Grouping__
+  - __Space__
+    - in a two-dimensional design creates a third-dimension
+    - we can achieve this illusion through depth    
+  - __Ambiguous Space__
+    - when we are questionable or think there are two or more possible meanings to the actual layout, it is ambiguous or questionable space
+  - __Impossible Space__
+    - when shapes just don't make sense
+  - __Atmospheric Perspective__
+    - creating depth through space
+  - __Linear Perspective__
+    - when we take a straight line and add 2 points on either side, called vanishing points, and we are able to create a third dimensional object
 
