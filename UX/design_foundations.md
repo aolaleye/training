@@ -192,4 +192,22 @@ __Understanding Aesthetics__
     - creating depth through space
   - __Linear Perspective__
     - when we take a straight line and add 2 points on either side, called vanishing points, and we are able to create a third dimensional object
+  - __White Space__
+    - refers to the comparison of elements within a composition
+- __Grouping__
+  - the unity or connection of two or more objects
+  - _i.e. touching, overlapping, transparency, union - if the objects form a new singular object, intersecting - if the objects cancel out each other, intersection - the cancelled out piece_
+  - __Proximity__
+    - measurement between objects
+  - __Similarity__
+    - continiuity in size, shape, color, and space
+  - __Common Fate__
+    - objects moving in the same direction belong together
+  - __Famililarity__
+    - if objects create another object
 
+
+
+
+
+  
