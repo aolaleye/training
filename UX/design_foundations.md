@@ -209,5 +209,3 @@ __Understanding Aesthetics__
 
 
 
-
-  
