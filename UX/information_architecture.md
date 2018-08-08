@@ -24,6 +24,156 @@ __The Role of IA in Web Design and Development__
 	- To understand the flow of your website and how people on the homepage will naturally find their way to important conversion points like making a purchase or newsletter registration
 	- You’ll also want to know how people finding your site through a link or search engine will land in the middle of your site but still be able to find their way easily and still be successful and finding the product info they need 
 
-__Information Ecology__
-- Ecology
-	- The study of how organisms interact with each other and the world around them
+__Principles of IA__
+- __Organizing Content__
+	- content can be organized by category or topic
+	- __Hierarchy__
+		- a specific kind of content organization where broad categories are broken down into smaller categories and so on, creating a structure that can be displayed within a tiered navigation menu
+- __Labeling Content__
+	- labeling information provides the context users need to understand how your website or app is organized
+	- choosing labels that make sense and appeal to your users will be important to the success of your website or app
+	- labels are the signals users need to find their way
+	- What needs labels?
+		- navigation menus
+			- vital to usability and user experience
+			- consider the user's point of view
+				- what information would they look for?
+				- what tasks are they trying to complete?
+				- what links would they look for?
+				- use clear, succinct terms
+- __Navigation Systems__
+	- Navigation refers to all systems used to navigate or get around a website or app
+	- __Global Navigation__
+		- menu that shows the main sections of a website
+	- __Local Navigation__
+		- sub-menu that shows the main links within a section of a website
+	- __Breadcrumbs__
+		- links that show where the current page is located with the sections or levels of the website
+	- __Contextual Links__
+		- links within the text in the body of a page
+- __Search Systems__
+	- __Exact search__
+		- when a user searches for the exact content they need by entering the name, ex: "2003 Ford Taurus for sale"
+	- __Broad search__
+		- when a user searches for something using general terms without knowing the exact content they'll find, ex: "4-door sedans for sale"
+	- __Filtering__
+		- selecting different criteria during a search to narrow the results
+	- Questions to ask when building a search system
+		- What parts of the site can users search?
+		- How many search fields?
+		- Can users filter results?
+		- How should results be sorted?
+	- __When do you need a search system?__
+		- complex informaiton
+		- many attributes
+		- lots of content
+		- _though search systems are not a replacement for menus or organization_
+
+__Evaluating IA__
+- __User Research__
+	- users keep you in business
+	- study user behavior and feedback
+	- how do users visit, navigate, use, react to your site?
+	- __Methods to perform user research__
+		- Website analytics
+			- popular content
+			- information paths
+			- link referrals
+			- search terms
+			- links with poor traffic
+				- are the menu links poorly named?
+		- Search data
+			- tells you exactly what your users need, what they're looking for
+		- Review social feedback
+			- moniter comments and reviews
+			- what do your users share or comment on
+			- it tells you the the language and terms your users use, topic priorities and shareable 
+		- User Surverys
+			- Most valuable content?
+			- New topics?
+			- Any problems?
+			- How do you feel?
+- __Card Sorting__
+	- a testing activity where users divide content cards into groups - and in many cases, name those groups - to help designer and developers understand the users' perspective of content labels, groupings, and relationships
+	- helps to find the best ways to group and label content
+		- __Open card sort__
+			- where users are asked to name the groups they've created
+			- good idea for a new site or blog where you need ideas for category names
+		- __Closed card sort__
+			- where users are asked to divide content into existing categories
+			- good option if you're happy with your exsisting catefory names but need help figuring out where new content might go
+	- Card Sorting Process
+		- What are you trying to figure out?
+			- Make sure your end goal is clear so you know why you are running this test
+		- Identify what will be on the cards
+			- Make it simple for the test user
+		- Test users
+			- average user of your site
+			- someone who will understand the terms on cards
+			- 3 to 5 people (or more)
+		- User testing
+			- ask for the user's honest opinions
+			- take the cards and divide them into groups
+				- ideally between 30 and 40 cards
+			- up to the user how to group them
+			- feel free to make changes
+			- give them a time limit
+			- basically what you're doing is
+				- explain why the test user is there
+				- make them comfortable and ask for honesty
+				- give them clear directions and expectations
+				- answer questions, but stay out of their way
+	- ultimately, card sorting could give you more confidence in your exsisting categories or link labels, but if not, it'll show you what needs to change
+		- you might need to rename categories or add new ones to support content that doesn't fit anywhere
+	- just be sure to __observe and take notes about the results of the test and share it with your team__
+- __Competitor Research__
+	- make a list of the companies, groups or apps that are competing with yours
+	- these competitors might offer the same services or sell the same products or create content about the same topics
+	- once you have a list, go check out their content and make notes
+		- what categories do they use?
+		- what order are they presented in?
+		- what links do they include in main menus?
+		- what do they call their main content sections?
+		- which terms are used most often?
+- __Site Maps__
+	- visual diagrams of website pages and sections
+	- arranged and connected
+	- helpful for big picture view of website organization
+	- visual reminder of where content resides
+
+__Applying IA__
+- __Improving Website Organization__
+	- do your sections match user needs and expectations?
+	- do sections have clear names?
+	- are sections logically organized?
+	- __Tree testing__
+		- show someone a text version of the strucature of a website and ask them to follow the 'branches; to select the spot where they thing they'd find an important piece of information
+- __Improving Navigation__
+	- how many different types of users do you expect to have?
+	- __User persona__
+		- a representative of common website or app users
+		- a profile that defines basic attributes of common users and helps designers and developers prioritize navigation and search options
+	- __Using Data__
+		- website analytics and search data
+		- provide autocomplete and search suggestions
+		- list popular content and search terms
+		- show previously viewed pages
+- __Improving Functions and Processes__
+	- making the path to information as short and easy as possible
+	- __Usability test__
+		- a test used to determine the usability of a website or app design
+		- test users try to complete a common task and results may show how the average user makes decisions and is able to interpret the information and interface they encounter 
+			- identify normal user's goal
+			- give the test user a task to complete
+			- watch what they do
+			- ask them to think out loud
+- __Going Forward__
+	- make checklists
+	- schedule reminders to monitor data sources
+	- have reports emailed to you
+	- run test - don't wait for things to break
+	- make sure your receive IA-related support requests
+	- small changes can make a huge difference
+	- focus on one change at a time
+	- too many changes make it difficult to know what worked
+	- keep an eye on competitiors
