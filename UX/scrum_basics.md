@@ -60,8 +60,47 @@ __Scrum Events__
 - __Backlog Refinement__
     - product owner reviews product backlog items with the team for clarification and revision
     - the team estimates the effort of each item
+    - user stories
+        - a special product backlog item that describes who would use the feature and why
+    - planning poker
+        - a "game" where each team member uses a card to show thei estimate of the work involved in an item
 - __Sprint Review__
     - the sprint product is demonstrated to the stakeholders
     - team gathers with stakeholders to demonstrate working software in the form of the sprint product
 - __Retrospective__
     - team gathers to reflect on the work of the sprint and identify something they can attempt to improve in the next sprint
+        - __What went well?__
+        - __What could have gone better?__
+        - __What can we change?__
+
+__Scrum Artifacts__
+- __User Stories__
+    - special product backlog items that tell you more than just how a feature behaves, but what is happening for the user
+    - the value of the user story is defined by _who_ the user is, _what_ they need, and _why_ they need it
+        - _As a _________
+        - _I need _________
+        - _so that _________
+- __The Product Backlog__
+    - an ordered list of all the items a team might work 
+    - the highest priority items are on the top and the lower priority items are further down the list
+- __Sprint Backlog__
+    - items are taken from the top of the product backlog and are accepted into a sprint
+- __The Taskboard__
+    - many teams break sprint backlog items into tasks
+    - a taskboard contains each of these tasks and their status this provides an easy way to communicate about work during the course of the sprint
+    - a task is a unit of work that can be accomplished by one or two team members - usually somthing that'll take less than half a day
+        - if a task takes longer than that, it is helpful to break that task down to smaller tasks
+    - a taskboard contains three headings for tasks to be placed under
+        - __To Do__
+        - __Doing__
+        - __Done__
+- __Definition of "Done"__
+    - tasks are complete
+    - code is reviewed
+    - item is tested
+    - reviewed with stakeholders
+    - product owner reviews conditions of acceptance
+    - anything else the team agrees on to include in the definition of done
+- __The Sprint Product__
+    - work that is done is included in the sprint product
+    - the sprint product is the working software the team produces in each sprint and only includes the items that are done
