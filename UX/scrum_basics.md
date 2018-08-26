@@ -47,7 +47,7 @@ __Introducing Scrum__
 
 __Scrum Events__
 - __Spring Planning__
-    - scrum team meeting that recurs during each spring
+    - scrum team meeting that recurs during each sprint
     - the team gathers to prepare for a new sprint and decide exactly which items will go into the sprint
 - __Daily Standups__
     - daily check-ins where each team member reports progess, next tasks, and issues impending progress
@@ -63,7 +63,7 @@ __Scrum Events__
     - user stories
         - a special product backlog item that describes who would use the feature and why
     - planning poker
-        - a "game" where each team member uses a card to show thei estimate of the work involved in an item
+        - a "game" where each team member uses a card to show the estimate of the work involved in an item
 - __Sprint Review__
     - the sprint product is demonstrated to the stakeholders
     - team gathers with stakeholders to demonstrate working software in the form of the sprint product
