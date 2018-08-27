@@ -41,7 +41,7 @@ __Introducing Scrum__
     - a team may complete several sprints on its way to preparing a release of software
     - __the length of a sprint is no longer that one month__ 
         - sometimes referred to as a __Time Box__ - the allotted time of the sprint agreed upon by the team
-        - the duration of a sprint can be a small a one week
+        - the duration of a sprint can be as small a one week
     - each sprint typically has the same duration which allows the team to form a rhythm or __Cadence__ to their work
     - a new sprint begins immediately after the previous sprint is completed
 
