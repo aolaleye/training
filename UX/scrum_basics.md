@@ -7,17 +7,17 @@ __What is Agile?__
             - time and resources wasted in handoff between stages
             - product does not fit original intent
             - difficult to respond to change
-__The Agile Manifesto__
-- encourages teams to think about how to break down the silos that separate people working on a project, giving people formal roles and responsibilities and providing expectations for collaboration
-    - __Individuals and interactions__ over processes and tools
-    - __Working software__ over comprehensive documentation
-    - __Customer collaboration__ over contract negotiation
-    - __Responding to change__ over following a plan
-__Varients of "Agile"__
-- Scrum
-- Lean and Kanban
-- Extreme Programming (XP)
-- and many more
+- __The Agile Manifesto__
+    - encourages teams to think about how to break down the silos that separate people working on a project, giving people formal roles and responsibilities and providing expectations for collaboration
+        - __Individuals and interactions__ over processes and tools
+        - __Working software__ over comprehensive documentation
+        - __Customer collaboration__ over contract negotiation
+        - __Responding to change__ over following a plan
+- __Varients of "Agile"__
+    - Scrum
+    - Lean and Kanban
+    - Extreme Programming (XP)
+    - and many more
 
 __Introducing Scrum__
 - __What is Scrum?__
