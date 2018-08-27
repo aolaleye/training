@@ -8,16 +8,16 @@ __What is Agile?__
             - product does not fit original intent
             - difficult to respond to change
 __The Agile Manifesto__
-    - encourages teams to think about how to break down the silos that separate people working on a project, giving people formal roles and responsibilities and providing expectations for collaboration
-        - __Individuals and interactions__ over processes and tools
-        - __Working software__ over comprehensive documentation
-        - __Customer collaboration__ over contract negotiation
-        - __Responding to change__ over following a plan
+- encourages teams to think about how to break down the silos that separate people working on a project, giving people formal roles and responsibilities and providing expectations for collaboration
+    - __Individuals and interactions__ over processes and tools
+    - __Working software__ over comprehensive documentation
+    - __Customer collaboration__ over contract negotiation
+    - __Responding to change__ over following a plan
 __Varients of "Agile"__
-    - Scrum
-    - Lean and Kanban
-    - Extreme Programming (XP)
-    - and many more
+- Scrum
+- Lean and Kanban
+- Extreme Programming (XP)
+- and many more
 
 __Introducing Scrum__
 - __What is Scrum?__
@@ -79,7 +79,7 @@ __Scrum Artifacts__
     - the value of the user story is defined by _who_ the user is, _what_ they need, and _why_ they need it
         - _As a _________
         - _I need _________
-        - _so that _________
+        - _So that _________
 - __The Product Backlog__
     - an ordered list of all the items a team might work 
     - the highest priority items are on the top and the lower priority items are further down the list
